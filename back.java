@@ -1,5 +1,3 @@
-
-
 public class Backtracking
 {
     static int n=4;
@@ -14,6 +12,6 @@ public class Backtracking
 	        System.out.print(i+ " ");
 	        fun(i+1);
 	    }
-	    System.out.print(i+ " ");
-	}
+	    System.out.print(i+ " ");//Backtracking 
+	}//once reached here we have to empty the stack or the memory so we will backtrack it 
 }
